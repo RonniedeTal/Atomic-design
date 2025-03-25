@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atomic design</title>
+    <!--reset de estilos--> <!--quitara todos los estilos por defecto-->
+    <link rel="stylesheet" href="./css/reset.css"> 
+    <!--estilos generales-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--atomos-->
+    <link rel="stylesheet" href="./css/atomos/images.css">
+    <link rel="stylesheet" href="./css/atomos/button.css">
+    <!--moleculas-->
+    <link rel="stylesheet" href="./css/moleculas/card.css">
+    <!--organismos-->
+    <link rel="stylesheet" href="./css/organismos/cards.css">
+</head>
+<body>
+    <div class="imposter">
+        <!--protones-->
+        <div class="protones">
+            <h1 class="title">Titulo</h1>
+            <h2 class="subtitle">Subtitulo</h2>
+            <p class="text">Texto Normal</p>
+            <div class="circle circle--navy" ></div>
+            <div class="circle circle--teal"></div>
+            <div class="circle circle--yellow"></div>
+            <div class="circle circle--light-teal"></div>
+        </div>
+        <!--atomos--><!--corresponderan a los botones y las imagenes-->
+        <div class="atomos">
+            <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+            <button class="button button--primary">button primary</button>
+            <button class="button button--secondary">button secundario</button>
+        </div>
+        <!--moleculas-->
+        <div class="moleculas">
+            <div class="card">
+                <div class="card__img">
+                    <!--como ya esta definida copiamos la de arriba-->
+                    <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+                </div>
+                <div class="car__info">
+                    <!--copiamos los protones-->
+                    <h1 class="title">Titulo</h1>
+                    <h2 class="subtitle">Subtitulo</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+                </div>
+                <!--tomamos el boton que necesitemos en este caso el primario-->
+                <button class="button button--primary">button primary</button>
+            </div>
+        </div>
+        <!--organismos-->
+        <div class="organismos">
+            <div class="cards">
+                <!--como ya estan creadas copiamos la cantidad que necesitamos-->
+            <div class="card">
+                <div class="card__img">
+                    <!--como ya esta definida copiamos la de arriba-->
+                    <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+                </div>
+                <div class="car__info">
+                    <!--copiamos los protones-->
+                    <h1 class="title">Titulo</h1>
+                    <h2 class="subtitle">Subtitulo</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+                </div>
+                <!--tomamos el boton que necesitemos en este caso el primario-->
+                <button class="button button--primary">button primary</button>
+            </div>
+            <div class="card">
+                <div class="card__img">
+                    <!--como ya esta definida copiamos la de arriba-->
+                    <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+                </div>
+                <div class="car__info">
+                    <!--copiamos los protones-->
+                    <h1 class="title">Titulo</h1>
+                    <h2 class="subtitle">Subtitulo</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+                </div>
+                <!--tomamos el boton que necesitemos en este caso el primario-->
+                <button class="button button--primary">button primary</button>
+            </div>
+            <div class="card">
+                <div class="card__img">
+                    <!--como ya esta definida copiamos la de arriba-->
+                    <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+                </div>
+                <div class="car__info">
+                    <!--copiamos los protones-->
+                    <h1 class="title">Titulo</h1>
+                    <h2 class="subtitle">Subtitulo</h2>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+                </div>
+                <!--tomamos el boton que necesitemos en este caso el primario-->
+                <button class="button button--primary">button primary</button>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!--copiamos el index.html aqui solo la parte del organismo(lo que necesitaremos en realidad en este caso para crear la carta)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atomic design</title>
+    <!--reset de estilos--> <!--quitara todos los estilos por defecto-->
+    <link rel="stylesheet" href="../css/reset.css"> 
+    <!--estilos generales-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--atomos-->
+    <link rel="stylesheet" href="../css/atomos/images.css">
+    <link rel="stylesheet" href="../css/atomos/button.css">
+    <!--moleculas-->
+    <link rel="stylesheet" href="../css/moleculas/card.css">
+    <!--organismos-->
+    <link rel="stylesheet" href="../css/organismos/cards.css">
+    <!--templates-->
+    <link rel="stylesheet" href="../css/templates/templates.css">
+</head>
+<body>
+    <!--a partir de aqui podemos modificarla a gusto personal-->
+    <!--reciclo la clase subtitle para el header-->
+    <header class="header">
+        <h2 class="subtitle">HEADER</h2>
+    </header>
+   <div class="template">
+    
+
+    <!--añado card info para crear un elemento debajo de cabecera con los distintos formatos creados-->
+    <div class="card__info">
+        <h1 class="title">Titulo</h1>
+        <h2 class="subtitle">Subtitulo</h2>
+        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+    </div>
+    <!--aqui se pego lo que estaba dentro de organismos-->
+    <div class="cards">
+    <div class="card">
+        <div class="card__img">
+            <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+        </div>
+        <div class="card__info">
+            <h1 class="title">Titulo</h1>
+            <h2 class="subtitle">Subtitulo</h2>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+        </div>
+          <button class="button button--primary">button primary</button>
+    </div>
+    <div class="card">
+        <div class="card__img">
+            <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+        </div>
+        <div class="card__info">
+            <h1 class="title">Titulo</h1>
+            <h2 class="subtitle">Subtitulo</h2>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+        </div>
+        <button class="button button--primary">button primary</button>
+    </div>
+    <div class="card">
+        <div class="card__img">
+            <img src="https://dummyimage.com/300x200/cccccc/fff&text=300x200" alt="dummy-img" class="responsive--image">
+        </div>
+        <div class="card__info">
+            <h1 class="title">Titulo</h1>
+            <h2 class="subtitle">Subtitulo</h2>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, officia!</p>
+        </div>
+        <button class="button button--primary">button primary</button>
+    </div>
+    </div>
+   
+   </div>
+    <!--creo un footer reciclando la class title-->
+    <footer class="footer">  
+        <h2 class="title">FOOTER</h2>
+          </footer>
+</body>
+</html>
