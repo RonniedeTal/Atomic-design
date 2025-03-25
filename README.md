@@ -21,7 +21,7 @@ git bash
 git clone 
 
 # Entra en el repo
-cd repo
+cd [repo](https://github.com/RonniedeTal/Atomic-design.git)
 
 # Abrelo con VScode
 code .
